@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-
+      
 jobs:
   call-hello-world:
     uses: ./.github/workflows/blank.yml
